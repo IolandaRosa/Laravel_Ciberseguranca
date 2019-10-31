@@ -14,10 +14,10 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Formatter\LineFormatter;
 
-define('YOUR_SERVER_URL', 'http://projet.dad');
+define('YOUR_SERVER_URL', 'http://134.209.93.54');
 // Check "oauth_clients" table for next 2 values:
 define('CLIENT_ID', '2');
-define('CLIENT_SECRET','oOE2JbBlAUkRI9AkYnOUyAa3GWdY3Ad7fkfk64rU');
+define('CLIENT_SECRET','flaFFPZAEnZKocZHf48DMvEwFCnAxyg48yvMRxgD');
 
 class LoginControllerAPI extends Controller
 {
